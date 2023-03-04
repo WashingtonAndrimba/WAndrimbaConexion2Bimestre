@@ -11,9 +11,7 @@ import java.sql.Connection;
 public class Aplicacion {
     public static void main(String[] args) {
         Connection conexion = Conexion.getConexion();
-        // El mensaje de conexión exitosa se imprime automáticamente
         if (conexion != null) {
-            // Haz lo que necesites con la conexión aquí
         }
     }
 }
